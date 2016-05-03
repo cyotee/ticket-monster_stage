@@ -111,7 +111,7 @@
             <properties>
                 <performancetest.webservice.host>${host.local.url}</performancetest.webservice.host>
                 <performancetest.webservice.port>${port.tomcat}</performancetest.webservice.port>
-                <performancetest.webservice.path>/</performancetest.webservice.path>
+                <performancetest.webservice.path>/?delay=60</performancetest.webservice.path>
                 <performancetest.connectTimeout>1000</performancetest.connectTimeout>
                 <performancetest.responseTimeout>3000</performancetest.responseTimeout>
                 <performancetest.threadCount>20</performancetest.threadCount>
